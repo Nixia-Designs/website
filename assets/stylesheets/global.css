@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@600&display=swap');
+
+body {
+    font-family: 'Lexend Exa', sans-serif;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* Lovely art by KeysixZero on X */
+.background {
+    background-image: url('../images/background.png');
+}
