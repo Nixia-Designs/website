@@ -1,14 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@600&display=swap');
+/* Import Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
-body {
-    font-family: 'Lexend Exa', sans-serif;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
-/* Lovely art by KeysixZero on X */
-.background {
-    background-image: url('../images/background.png');
-}
+/* Custom Scrollbar */
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #24292E; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #5372C1; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #4CCCEA; 
+    }
+
+/* General font and color defaults */
+    body {
+        background-color: #24292E;
+        box-sizing: border-box;
+        color: #CFFBFF;
+        padding: 0;
+        margin: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Funnel Display', sans-serif;
+        font-weight: 800;
+    }
+
+    p {
+        font-family: 'Funnel Display', sans-serif;
+        font-weight: 400;
+    }
+
+/* Topbar defaults */
+    .navigation-bar {
+        font-family: 'Funnel Display', sans-serif;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        font-weight: 800;
+        font-size: 1.2em;
+        display: flex;
+    }
+
+    .navigation-bar .wordmark {
+        font-size: 1.5em;
+    }
+
+    .navigation-bar .nav-links {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navigation-bar .nav-links a {
+        color: #CFFBFF;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+      .navigation-bar .nav-links a:hover {
+        color: #4CCCEA;
+    }
+
+/* Header defaults */
+    header {
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    header img {
+        height: 25em;
+        width: 25em;
+    }
+
+    header h1 {
+        font-size: 3.5em;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+/* Footer defaults */
+    footer {
+        margin-top: 120px;
+        background: #202225;
+        color: #b9bbbe;
+        text-align: center;
+        padding: 20px 10px;
+        font-size: 0.9em;
+    }
+
+    footer a {
+        color: #5865f2;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+

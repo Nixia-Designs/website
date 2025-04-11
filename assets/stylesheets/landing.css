@@ -1,24 +1,59 @@
-h1:hover, h3:hover {
-    color: #4cccea;
-    cursor: default;
-}
+/* Landing page specific settings */
+    /* Header settings */
 
-.center {
-    text-align: center;
-    transform: translate(-50%, -50%);
-    padding: 1.5em;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-}
+    .invite-button {
+        font-family: 'Funnel Display', sans-serif;
+        display: inline-block;
+        color: #CFFBFF;
+        padding: 15px 35px;
+        font-size: 1.1em;
+        background-color: #5372C1;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
-.fadeInAnimation {
-    animation: fadeInAnimation ease-in-out 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
+    .invite-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
 
-@keyframes fadeInAnimation {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
+    /* Why should you care section */
+    section {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    section h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+        }
+
+    .feature {
+        background: #23272a;
+        padding: 20px;
+        border-radius: 10px;
+        width: 300px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .feature h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
