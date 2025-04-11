@@ -67,6 +67,10 @@
         font-size: 1em;
     }
 
+    .navigation-bar .nav-links .disabled {
+        cursor: not-allowed;
+    }
+
       .navigation-bar .nav-links a:hover {
         color: #4CCCEA;
     }
