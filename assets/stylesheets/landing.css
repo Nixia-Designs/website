@@ -16,13 +16,15 @@
     }
 
     .invite-button:hover {
-        transform: translateY(-2px);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        background-color: #849ddb;
+        transform: translateY(-2px);
+        cursor: not-allowed;
     }
 
     /* Why should you care section */
     section {
-        padding: 60px 20px;
+        padding: 90px 20px;
         text-align: center;
     }
 
@@ -50,6 +52,7 @@
 
     .feature:hover {
         transform: translateY(-5px);
+        color: #4CCCEA;
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     }
 
